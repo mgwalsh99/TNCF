@@ -1,0 +1,28 @@
+Settings	SettingsfileSYMBOLOGY	\TNCF_ES_Setings\SYMBOLOGY.txt
+Settings	SettingsfileVOICE	\TNCF_ES_Setings\GND-2-AIR.txt
+Settings	SettingsfilePROFILE	\TNCF_ES_Setings\LOGIN.txt
+Settings	SettingsfileTAGS	\TNCF_ES_Setings\TAG.txt
+Settings	SettingsfileSIL	\TNCF_ES_Setings\SECTORINBOUND.txt
+Settings	SettingsfileSEL	\TNCF_ES_Setings\SECTOREXIT.txt
+Settings	SettingsfileDEP	\TNCF_ES_Setings\DEPLIST.txt
+Settings	SettingsfileARR	\TNCF_ES_Setings\ARRLIST.txt
+Settings	SettingsfileFP	\TNCF_ES_Setings\FLIGHTPLAN.txt
+Settings	SettingsfilePLUGINS	\TNCF_ES_Setings\PLUGIN.txt
+Settings	Settingsfile	\TNCF_ES_Setings\GENERAL.txt
+Settings	SettingsfileSCREEN	\TNCF_ES_Setings\SCREEN.txt
+Settings	sector	\TNCF_ES_Sectors\TNCF_ES.sct2
+Settings	airlines	\TNCF_ES_DataFiles\ICAO_Airlines.txt
+Settings	airports	\TNCF_ES_DataFiles\ICAO_Airports.txt
+Settings	aircraft	\TNCF_ES_DataFiles\ICAO_Aircraft.txt
+Settings	airways	\TNCF_ES_DataFiles\AIRWAY.txt
+Settings	airportcoords	\TNCF_ES_DataFiles\ICAO.txt
+Settings	alias	\TNCF_ES_Aliases\alias .txt
+Settings	SettingsfileCONFLICT	\TNCF_ES_Setings\Confict list configuration.txt
+Settings	AtisFolder	\TNCF_ES_ATIS\atisfiles.txt
+Plugins	Plugin0	D:\Users\Mark\Documents\EuroScope\CANscope\Plugins\AfvEuroScopeBridge.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin0Display1	Standard ES radar screen
+Settings	SettingsfileVCCS	\TNCF_ES_Setings\GENERAL.txt
+Settings	SettingsfilePILOTING	\TNCF_ES_Setings\GENERAL.txt
+Plugins	Plugin1	D:\Users\Mark\Documents\EuroScope\CANscope\CANscope.dll
+Plugins	Plugin1Display0	Standard ES radar screen

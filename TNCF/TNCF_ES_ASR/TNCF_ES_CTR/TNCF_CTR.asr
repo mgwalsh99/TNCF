@@ -1,0 +1,425 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Trystan\Documents\VRC Sector files\TNCF\TNCF_CTR.SCT
+SECTORTITLE:TNCF_CTR.SCT
+Airports:TNCA:name
+Airports:TNCA:symbol
+Airports:TNCB:name
+Airports:TNCB:symbol
+Airports:TNCC:name
+Airports:TNCC:symbol
+ARTCC boundary:MDCS/TJZS:
+ARTCC boundary:MKJK/MTEG:
+ARTCC boundary:MTEG/MDCS:
+ARTCC boundary:SKEC/MKJK:
+ARTCC boundary:SVZM/SKEC:
+ARTCC boundary:TJZS/SVZM:
+ARTCC boundary:TNCF:
+ARTCC high boundary:TNCF/INNER:
+ARTCC high boundary:TNCF_W:
+ARTCC low boundary:TNCA:
+ARTCC low boundary:TNCB:
+ARTCC low boundary:TNCC:
+Fixes:ABACA:name
+Fixes:ABACA:symbol
+Fixes:ACORA:name
+Fixes:ACORA:symbol
+Fixes:ADRIV:name
+Fixes:ADRIV:symbol
+Fixes:AFTON:name
+Fixes:AFTON:symbol
+Fixes:AGLIS:name
+Fixes:AGLIS:symbol
+Fixes:AGMEX:name
+Fixes:AGMEX:symbol
+Fixes:ALCOT:name
+Fixes:ALCOT:symbol
+Fixes:ALIMI:name
+Fixes:ALIMI:symbol
+Fixes:AMAMI:name
+Fixes:AMAMI:symbol
+Fixes:AMBIN:name
+Fixes:AMBIN:symbol
+Fixes:AMUXA:name
+Fixes:AMUXA:symbol
+Fixes:APNUT:name
+Fixes:APNUT:symbol
+Fixes:AVELO:name
+Fixes:AVELO:symbol
+Fixes:BEROX:name
+Fixes:BEROX:symbol
+Fixes:BEXER:name
+Fixes:BEXER:symbol
+Fixes:BIBIP:name
+Fixes:BIBIP:symbol
+Fixes:BINLI:name
+Fixes:BINLI:symbol
+Fixes:BOGVU:name
+Fixes:BOGVU:symbol
+Fixes:BONAX:name
+Fixes:BONAX:symbol
+Fixes:BOSCO:name
+Fixes:BOSCO:symbol
+Fixes:DATOR:name
+Fixes:DATOR:symbol
+Fixes:DAVEL:name
+Fixes:DAVEL:symbol
+Fixes:DIBOK:name
+Fixes:DIBOK:symbol
+Fixes:DUKSO:name
+Fixes:DUKSO:symbol
+Fixes:DUSAN:name
+Fixes:DUSAN:symbol
+Fixes:EBKUT:name
+Fixes:EBKUT:symbol
+Fixes:ELASO:name
+Fixes:ELASO:symbol
+Fixes:ELUVA:name
+Fixes:ELUVA:symbol
+Fixes:EMAPA:name
+Fixes:EMAPA:symbol
+Fixes:EMBAP:name
+Fixes:EMBAP:symbol
+Fixes:ERBUR:name
+Fixes:ERBUR:symbol
+Fixes:ESIPO:name
+Fixes:ESIPO:symbol
+Fixes:GONEP:name
+Fixes:GONEP:symbol
+Fixes:GOSEM:name
+Fixes:GOSEM:symbol
+Fixes:GUDEL:name
+Fixes:GUDEL:symbol
+Fixes:IKMAG:name
+Fixes:IKMAG:symbol
+Fixes:ILKIT:name
+Fixes:ILKIT:symbol
+Fixes:IMEVA:name
+Fixes:IMEVA:symbol
+Fixes:IMOMA:name
+Fixes:IMOMA:symbol
+Fixes:IRBAR:name
+Fixes:IRBAR:symbol
+Fixes:IRGUT:name
+Fixes:IRGUT:symbol
+Fixes:IRLEP:name
+Fixes:IRLEP:symbol
+Fixes:ITSEL:name
+Fixes:ITSEL:symbol
+Fixes:KABON:name
+Fixes:KABON:symbol
+Fixes:KAROB:name
+Fixes:KAROB:symbol
+Fixes:KARUM:name
+Fixes:KARUM:symbol
+Fixes:KELDU:name
+Fixes:KELDU:symbol
+Fixes:KERLI:name
+Fixes:KERLI:symbol
+Fixes:KIRIG:name
+Fixes:KIRIG:symbol
+Fixes:LENOM:name
+Fixes:LENOM:symbol
+Fixes:LETEX:name
+Fixes:LETEX:symbol
+Fixes:LIDOL:name
+Fixes:LIDOL:symbol
+Fixes:LOGLA:name
+Fixes:LOGLA:symbol
+Fixes:LUCAS:name
+Fixes:LUCAS:symbol
+Fixes:MARAX:name
+Fixes:MARAX:symbol
+Fixes:MASEN:name
+Fixes:MASEN:symbol
+Fixes:MIVER:name
+Fixes:MIVER:symbol
+Fixes:MOBAM:name
+Fixes:MOBAM:symbol
+Fixes:MOLOC:name
+Fixes:MOLOC:symbol
+Fixes:MUNBA:name
+Fixes:MUNBA:symbol
+Fixes:NOREX:name
+Fixes:NOREX:symbol
+Fixes:NOTAM:name
+Fixes:NOTAM:symbol
+Fixes:NOXAD:name
+Fixes:NOXAD:symbol
+Fixes:OLAXA:name
+Fixes:OLAXA:symbol
+Fixes:OLITO:name
+Fixes:OLITO:symbol
+Fixes:ONDAS:name
+Fixes:ONDAS:symbol
+Fixes:ONDER:name
+Fixes:ONDER:symbol
+Fixes:OROSA:name
+Fixes:OROSA:symbol
+Fixes:OTVIR:name
+Fixes:OTVIR:symbol
+Fixes:OVILA:name
+Fixes:OVILA:symbol
+Fixes:PAGAK:name
+Fixes:PAGAK:symbol
+Fixes:PALAS:name
+Fixes:PALAS:symbol
+Fixes:PENKO:name
+Fixes:PENKO:symbol
+Fixes:PERSO:name
+Fixes:PERSO:symbol
+Fixes:PEVLA:name
+Fixes:PEVLA:symbol
+Fixes:PITOS:name
+Fixes:PITOS:symbol
+Fixes:PJGCC:name
+Fixes:PJGCC:symbol
+Fixes:POKAK:name
+Fixes:POKAK:symbol
+Fixes:PUTAR:name
+Fixes:PUTAR:symbol
+Fixes:PUXUN:name
+Fixes:PUXUN:symbol
+Fixes:REPIS:name
+Fixes:REPIS:symbol
+Fixes:REVOK:name
+Fixes:REVOK:symbol
+Fixes:SASET:name
+Fixes:SASET:symbol
+Fixes:SCAPA:name
+Fixes:SCAPA:symbol
+Fixes:SELAN:name
+Fixes:SELAN:symbol
+Fixes:SENSO:name
+Fixes:SENSO:symbol
+Fixes:SIGTO:name
+Fixes:SIGTO:symbol
+Fixes:SINDA:name
+Fixes:SINDA:symbol
+Fixes:SIPDO:name
+Fixes:SIPDO:symbol
+Fixes:TABEB:name
+Fixes:TABEB:symbol
+Fixes:TAKEK:name
+Fixes:TAKEK:symbol
+Fixes:TARBA:name
+Fixes:TARBA:symbol
+Fixes:TATLO:name
+Fixes:TATLO:symbol
+Fixes:TEKOL:name
+Fixes:TEKOL:symbol
+Fixes:TETUM:name
+Fixes:TETUM:symbol
+Fixes:TNCB:name
+Fixes:TNCB:symbol
+Fixes:UKITO:name
+Fixes:UKITO:symbol
+Fixes:UKPID:name
+Fixes:UKPID:symbol
+Fixes:ULIXU:name
+Fixes:ULIXU:symbol
+Fixes:URNAP:name
+Fixes:URNAP:symbol
+Fixes:URNOT:name
+Fixes:URNOT:symbol
+Fixes:VESKA:name
+Fixes:VESKA:symbol
+Fixes:VITAT:name
+Fixes:VITAT:symbol
+Fixes:VODIN:name
+Fixes:VODIN:symbol
+Fixes:VOLAR:name
+Fixes:VOLAR:symbol
+Free Text:Kingston TCPs\#:freetext
+Free Text:Kingston TCPs\#:freetext
+Free Text:Kingston TCPs\#:freetext
+Free Text:Kingston TCPs\#:freetext
+Free Text:TNCA Other\GA:freetext
+Free Text:TNCA Other\TMNL:freetext
+Free Text:TNCA Parking\1:freetext
+Free Text:TNCA Parking\10:freetext
+Free Text:TNCA Parking\11:freetext
+Free Text:TNCA Parking\12:freetext
+Free Text:TNCA Parking\13:freetext
+Free Text:TNCA Parking\14:freetext
+Free Text:TNCA Parking\15:freetext
+Free Text:TNCA Parking\16:freetext
+Free Text:TNCA Parking\2:freetext
+Free Text:TNCA Parking\3:freetext
+Free Text:TNCA Parking\4:freetext
+Free Text:TNCA Parking\5:freetext
+Free Text:TNCA Parking\6:freetext
+Free Text:TNCA Parking\7:freetext
+Free Text:TNCA Parking\8:freetext
+Free Text:TNCA Parking\9:freetext
+Free Text:TNCA Parking\9A:freetext
+Free Text:TNCA Taxiways\A:freetext
+Free Text:TNCA Taxiways\B:freetext
+Free Text:TNCA Taxiways\C:freetext
+Free Text:TNCA Taxiways\D:freetext
+Free Text:TNCA Taxiways\E:freetext
+Free Text:TNCA Taxiways\F:freetext
+Free Text:TNCA Taxiways\G:freetext
+Free Text:TNCA Taxiways\G:freetext
+Free Text:TNCA Taxiways\G:freetext
+Free Text:TNCA Taxiways\H:freetext
+Free Text:TNCA Taxiways\H:freetext
+Free Text:TNCA Taxiways\K:freetext
+Free Text:TNCB Other\GA:freetext
+Free Text:TNCB Other\TMNL:freetext
+Free Text:TNCB Other\WB:freetext
+Free Text:TNCB Parking\1:freetext
+Free Text:TNCB Parking\2:freetext
+Free Text:TNCB Parking\3:freetext
+Free Text:TNCB Parking\4:freetext
+Free Text:TNCB Parking\5:freetext
+Free Text:TNCB Parking\6:freetext
+Free Text:TNCB Taxiways\A:freetext
+Free Text:TNCB Taxiways\B:freetext
+Free Text:TNCB Taxiways\C:freetext
+Free Text:TNCB Taxiways\D:freetext
+Free Text:TNCB Taxiways\E:freetext
+Free Text:TNCC Other\CG:freetext
+Free Text:TNCC Other\GA:freetext
+Free Text:TNCC Other\NEW TMNL:freetext
+Free Text:TNCC Other\OLD TMNL:freetext
+Free Text:TNCC Other\USAF:freetext
+Free Text:TNCC Parking\1:freetext
+Free Text:TNCC Parking\10:freetext
+Free Text:TNCC Parking\11:freetext
+Free Text:TNCC Parking\12:freetext
+Free Text:TNCC Parking\13:freetext
+Free Text:TNCC Parking\14:freetext
+Free Text:TNCC Parking\15:freetext
+Free Text:TNCC Parking\16:freetext
+Free Text:TNCC Parking\2:freetext
+Free Text:TNCC Parking\3:freetext
+Free Text:TNCC Parking\4:freetext
+Free Text:TNCC Parking\5:freetext
+Free Text:TNCC Parking\6:freetext
+Free Text:TNCC Parking\7:freetext
+Free Text:TNCC Parking\8:freetext
+Free Text:TNCC Parking\9:freetext
+Free Text:TNCC Taxiways\A:freetext
+Free Text:TNCC Taxiways\A:freetext
+Free Text:TNCC Taxiways\A:freetext
+Free Text:TNCC Taxiways\A:freetext
+Free Text:TNCC Taxiways\A:freetext
+Free Text:TNCC Taxiways\B:freetext
+Free Text:TNCC Taxiways\C:freetext
+Free Text:TNCC Taxiways\D:freetext
+Geo:GEO:
+Geo:N012.30.13.221:
+High airways:UA315:line
+High airways:UA315:name
+High airways:UA319:line
+High airways:UA319:name
+High airways:UA511:line
+High airways:UA511:name
+High airways:UA516:line
+High airways:UA516:name
+High airways:UA554:line
+High airways:UA554:name
+High airways:UA563:line
+High airways:UA563:name
+High airways:UA567:line
+High airways:UA567:name
+High airways:UA574:line
+High airways:UA574:name
+High airways:UG431:line
+High airways:UG431:name
+High airways:UG442:line
+High airways:UG442:name
+High airways:UG444:line
+High airways:UG444:name
+High airways:UG446:line
+High airways:UG446:name
+High airways:UG885:line
+High airways:UG885:name
+High airways:UL304:line
+High airways:UL304:name
+High airways:UL674:line
+High airways:UL674:name
+High airways:UL793:line
+High airways:UL793:name
+High airways:UL795:line
+High airways:UL795:name
+High airways:UM525:line
+High airways:UM525:name
+NDBs:PJB:frequency
+NDBs:PJB:name
+NDBs:PJB:symbol
+Runways:TNCA 11-29:centerline
+Runways:TNCA 11-29:extended centerline 1
+Runways:TNCA 11-29:extended centerline 1 left base
+Runways:TNCA 11-29:extended centerline 1 left ticks
+Runways:TNCA 11-29:extended centerline 1 left vectoring
+Runways:TNCA 11-29:extended centerline 1 right base
+Runways:TNCA 11-29:extended centerline 1 right ticks
+Runways:TNCA 11-29:extended centerline 1 right vectoring
+Runways:TNCA 11-29:extended centerline 2
+Runways:TNCA 11-29:extended centerline 2 left base
+Runways:TNCA 11-29:extended centerline 2 left ticks
+Runways:TNCA 11-29:extended centerline 2 left vectoring
+Runways:TNCA 11-29:extended centerline 2 right base
+Runways:TNCA 11-29:extended centerline 2 right ticks
+Runways:TNCA 11-29:extended centerline 2 right vectoring
+Runways:TNCA 11-29:name
+Runways:TNCB 10-28:centerline
+Runways:TNCB 10-28:extended centerline 1
+Runways:TNCB 10-28:extended centerline 1 left base
+Runways:TNCB 10-28:extended centerline 1 left ticks
+Runways:TNCB 10-28:extended centerline 1 left vectoring
+Runways:TNCB 10-28:extended centerline 1 right base
+Runways:TNCB 10-28:extended centerline 1 right ticks
+Runways:TNCB 10-28:extended centerline 1 right vectoring
+Runways:TNCB 10-28:extended centerline 2
+Runways:TNCB 10-28:extended centerline 2 left base
+Runways:TNCB 10-28:extended centerline 2 left ticks
+Runways:TNCB 10-28:extended centerline 2 left vectoring
+Runways:TNCB 10-28:extended centerline 2 right base
+Runways:TNCB 10-28:extended centerline 2 right ticks
+Runways:TNCB 10-28:extended centerline 2 right vectoring
+Runways:TNCB 10-28:name
+Runways:TNCC 11-29:centerline
+Runways:TNCC 11-29:extended centerline 1
+Runways:TNCC 11-29:extended centerline 1 left base
+Runways:TNCC 11-29:extended centerline 1 left ticks
+Runways:TNCC 11-29:extended centerline 1 left vectoring
+Runways:TNCC 11-29:extended centerline 1 right base
+Runways:TNCC 11-29:extended centerline 1 right ticks
+Runways:TNCC 11-29:extended centerline 1 right vectoring
+Runways:TNCC 11-29:extended centerline 2
+Runways:TNCC 11-29:extended centerline 2 left base
+Runways:TNCC 11-29:extended centerline 2 left ticks
+Runways:TNCC 11-29:extended centerline 2 left vectoring
+Runways:TNCC 11-29:extended centerline 2 right base
+Runways:TNCC 11-29:extended centerline 2 right ticks
+Runways:TNCC 11-29:extended centerline 2 right vectoring
+Runways:TNCC 11-29:name
+VORs:ABA:frequency
+VORs:ABA:name
+VORs:ABA:symbol
+VORs:BEA:frequency
+VORs:BEA:name
+VORs:BEA:symbol
+VORs:PJB:frequency
+VORs:PJB:name
+VORs:PJB:symbol
+VORs:PJG:frequency
+VORs:PJG:name
+VORs:PJG:symbol
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:60000
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Raytheon AutoTrac II
+WINDOWAREA:11.938961:-68.634394:12.291562:-67.975207

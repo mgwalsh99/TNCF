@@ -1,0 +1,249 @@
+; This file was created by Barry Theodore with help from various sources
+; from within the Curacao FIR and from other on line services.
+; Revised by Barry Theodore You can edit lines for the airport you are controlling.
+; Where ($1)..($2)..($3) etc are used a parameter must be supplied to the command.
+; Where $xxx are used, these are supplied by Vatsim, Euroscope or Pilot flight plan.
+; To use these in Euroscope, eg in the text area type ".off (space)" and you will get something like "/Curacao Centre is closing. Good bye." then you just hit "enter" to send the information.
+; To use on aircraft, select aircraft. eg Type in the text area type ".good (space)" and you will get "You are radar identified, continue as filed."
+
+
+
+
+
+
+*******************************************************************
+
+
+.info The Transition Level for the Curacao FIR is FL040.
+
+
+
+;********************
+; Weather
+;********************
+;add other airports as required
+
+.wx .qd tnca tncb tncc
+  
+
+;*********************
+; Emergency
+;*********************
+.emerg Your emergency has been acknowledged. How much fuel and how many passengers do you have on board?.
+.priority You will get priority landing for the best available runway.
+.tell We have an emergency aircraft, you may expect some delay and holding.
+
+
+
+;**********************
+; You as controller any position
+;**********************
+.contactme Please Contact me on $freq.  
+.on /Good evening, $radioname is online.
+.off1 /$radioname is closing in 5 minutes. 
+.off2 /$radioname is closing. Good bye.
+.good Curacao Centre, Recycle your Transponder and Squawk $squawk
+.good1 Radar Identified at $calt, Continue as filed. Welcome Aboard.
+.good2 You are radar identified, turn $1 to heading $2.
+.good3 You are radar identified, turn $1 to heading $2, descend at your decretion to $3.
+.filed Continue as filed.
+.si Set your transponder to $squawk Ident please.
+.bye You are leaving my airspace to the $1 radar services terminated. Thank you for flying in the Curacao FIR. Change frequency to UNICOM 122.80. Have a good flight. Bye
+.med Metar for airport $metar($dep)
+.me Metar for your arrival airport $metar($arr)  
+.inband goto the fsfdt control panel > voice > vatsim > volume - inband voice signal tone volume ... turn it off
+.2atis goto the FSX  Options > Settings > Sound > Voice ... uncheck
+.backt Clear to enter RWY $1 at $2 intersection  backtrack to take off position.
+
+.rs Report your speed.
+.red Reduce speed to $1 kts for separation.
+.redl Reduce speed $1 kts or less for separation.
+.redm Reduce speed to your minimum clean for separation.
+.redf Reduce to final approach speed for separation.
+.ident Squawk ident please if you read me.
+.squawk Please set your Squawk to $squawk and ident.
+.sc Set your squawk to C mode, please.
+.sb Set your squawk to stand by on the ground, please.
+
+
+
+
+
+;*****************
+;Clearance / Delivery
+;*****************
+
+.clear Cleared to $arr via $1 Departure, direct $2, FL040, Squawk $squawk
+.rb readback is correct,RWY $2,winds $winds, QNH $qnh, call for ready for push and start
+.p/b Push and Start approved. Report ready to taxi.
+.cor clearance to $arr on request, please standby
+.cor# clearance on request, standby, you are number $1 in sequence...
+.pref preferred route to $arr is
+.ca I have your clearance, advise ready to copy.
+.nfp I do not see a flight plan for you sir, Please resend it.
+.dc Do you have Departure Charts sir?
+.atis Advise you have information $atiscode.
+.xfp I have an amendment to your clearance, advise ready to copy.
+.cua Can you accept the $1 departure?
+.cafv Expect radar vectors as requested.
+
+
+
+.wecharts Airport information available at
+
+;**************
+; VFR
+;**************
+
+
+.taxivfr Wind True $wind, Altimeter $altim, Runway $deprwy, Taxi Via $1, Hold Short Runway $deprwy
+
+.vfrclr Squawk $squawk RWY $1 Taxi via $2 hold short RWY $3
+.vfrcto S1 Turn out approved, report clear of runway wind $winds RWY $1 clear for take off.
+.vfrnav resume own navigation and appropriate VFR altitudes
+.vfrleaving Radar services terminated Squawk VFR frequency change approved cleared on route, report when starting descent.
+.vfrserv For further service $1 ctr is available on $2.
+.vfrland Winds are true $wind, Cleared to Land Runway $arrrwy
+
+;*******************
+; Circuits>
+;*******************
+
+.vfrapprove VFR Circuits are Approved, Squawk $squawk, Call me when ready for Taxi, ATIS $1 is current.
+.circuitleft Left Hand Circuits, Call me Downwind, Not Above 3500, Wind true $wind(cyqm), Cleared for Take Off Runway $deprwy(cyqm)
+.circuitright Right Hand Circuits, Call me Downwind, Not Above 3500, Wind is true $wind(cyqm), Cleared for Take Off Runway $deprwy(cyqm)
+
+
+.toc Wind is true $winds. Report midfield downwind with your intentions. RWY $1, cleared for takeoff. 
+.tg Wind is true $winds.Runway $1. Cleared touch and go.
+.fstop Wind is true $winds. Runway $1. Cleared for full stop landing.
+.opt Wind is true $winds. Runway $1. Cleared for the option.
+.low Wind is true $winds. Runway $1. Cleared for low and over pass.
+.stopgo Wind is true $winds. Runway $1. Cleared for stop and go.
+.mrct Make right circuit traffic for rwy $1
+.mlct Make left circuit traffic for rwy $1
+
+
+
+;****************
+; Ground
+;****************
+
+.taxirw Runway $deprwy, Altimeter $altim, Taxi Via $1, Hold Short Runway $deprwy
+.taxito Welcome to $arr. Taxi to parking of your choice via $1. Report engine shutdown.
+.hs Hold short of rwy $1
+.lt landing traffic $1
+.dt departing traffic $1
+.si State your intentions please
+.back At $1 backtrack RWY $1 to line up.
+
+;****************
+; Tower
+;**************** 
+
+.to Wind is true $winds RWY $1, report airbourne, cleared for takeoff. 
+.to2 Wind calm. RWY $1, report airbourne, cleared for takeoff.
+.land Wind is true $winds RWY $1 clear to land, report clear of runway.
+.land2 Wind calm, RWY $1 clear to land, report clear of runway.
+.lu Line up and wait
+
+
+
+
+
+
+;******************
+; Approach/Departure
+;******************
+
+
+.welca Beatrix Approach, Landing Runway $arrrwy($arr), ATIS $1 is current, $arr Altimeter of $altim($arr) 
+.welcc Hato Approach, Landing Runway $arrrwy($arr), $arr Altimeter of $altim($arr) 
+.dm At your descretion descend to $1 ft
+.cm Cleared to $1 ft
+.dmfl Descend to FL$1
+.dvia Descend via $1 to $2
+.cmfl Climb to FL$1
+.cvia Climb Via $1 to $2
+.speed Speed is $1 kts
+.dmto Plan to cross $1 at $2
+.tl Turn Left, Fly Heading $1.
+.tr Turn Right, Fly Heading $1.
+.tldir Turn left direct $1.
+.trdir Turn right direct $1.
+.clrfl You are radar identified, cleared to FL$1, thru FL40 turn $2 direct $3 flight planned route.
+.fh Fly on heading $1.
+.expect Expect ILS approach RWY $1.
+.expect2 Expect ILS approach RWY $1 as Nr $2.
+.expectv Expect visual approach RWY $1.
+.expectfl Expect $1 over $2. Advise me when ready for descent.
+.pd Proceed direct to $1 planned route.
+.clearapp You are cleared to the $arr airport, straight in $1 approach, Runway $arrrwy
+
+.hold Join the holding pattern over $1 as published.
+.holdlow Up to FL140': max speed 230 Kias, legs 1 min, std 1 min rate turns.
+.holdhigh Above FL140': max speed 265 Kias, legs 1.5 min, std 1 min rate turns.
+.leave Leave the holding pattern and continue planned route.
+.leavev Leave the holding pattern, heading $1, then vectors.
+
+.trloc Turn right to $1 degrees to intercept the localiser for rwy $2.
+.tlloc Turn left to $1 degrees to intercept the localiser for rwy $2.
+.ils Cleared ILS approach RWY $1. Report when established.
+
+.capp Continue approach to RWY $1. Wind is $winds($arr). Expect late clearance.
+.capp2 Continue approach to RWY $1. Wind calm. Expect late clearance.
+.shut Engine shutdown approved. FP closed at $1. Thank you for flying to $radioname. Have a good night.
+
+
+;*********************
+;Center Operations
+;*********************
+
+.cansid Cancel SID fly direct $1 then planned route.
+.clb Cleared to FL$1.
+.expect You can expect $arr runway $1 via the $2 arrival, when ready descend to FL$3. Altim at $arr $altim($arr) when required. Advise leaving current level.
+.filed Continue on course as filed.
+.si Set your transponder to Squawk Ident please.
+.altim Altim when required at $arr $altim($arr), call me when leaving $1.
+.winds Winds at $arr $winds($arr)
+.dmby Descend to $1 $altim($arr)
+.cmby Climb to $1 $altim($dep)
+.welcome Welcome to the Curacao FIR, you are radar identified, $1 miles from the $2 VOR, continue as filed.
+.welstar Welcome to the Curacao FIR, you are radar identified, $1 miles from the $2 VOR, continue on $3 Atar as published.
+.ctrunicom Curacao Centre is closing, radar services terminated. Change frequency to UNICOM 122.80. Have a good flight. Bye
+.fltlvl $1 is approved, report at $2.
+
+
+;*********************
+;RNAV Phraseology
+;********************
+.vectt Vectors for traffic/sequencing turn $1 heading $2 degrees. Expect direct $3 in 20 miles.
+.dir Proceed direct $1 on course.
+.newstar Recleared the $1 arrival. When able proceed direct $2 on course.
+.desc Descend to $1.
+.rdesc When ready descend to $1.
+.decnow Descend now to $1, when ready continue descent to $2.
+.decready Descend to $1, leave $2 when ready. Altimeter at $arr $altim($arr) when required. 
+.deccross Descend $1 cross $2 at/at or above/at or below $3 or at $3 or above/below.
+.decto Continue descent to cross $1 at $2. Altimeter at $arr $altim($arr) when required.
+.deccanres Descend to $1, altitude restrictions on $2 Arrival cancelled or All $3 STAR altitude restrictions cancelled.
+.deccanone Descend to $1, altitude restriction at $2 cancelled.
+.speedmain Maintain speed $1 Knots until advised.
+.speedmainto Maintain speed $1 Knots until $2.
+.speedred Reduce speed now to $1 knots. 
+.speedres Resume normal speed.
+
+
+;**********************
+;Centre Uncontrolled Airports
+;**********************
+
+
+.clunc Cleared to $arr via the flight planned route, Squawk $squawk
+.rbunc readback is correct, surface winds $winds ($dep), taxi and takeoff your descretion. Call me crossing FL140, your clearance is void if not airborne by $1, switch to unicom now.
+.clrunc Cleared to $arr for an approach, Report down and clear to close out your IFR flight plan.
+.fpclosed Your flight plan is closed at $1 Zulu.
+
+
+
+

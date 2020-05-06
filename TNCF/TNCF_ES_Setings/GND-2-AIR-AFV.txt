@@ -1,0 +1,13 @@
+VOICE
+AG:Curacao Centre:127.100:ignored:tncf_ctr
+AG:Curacao West Centre:124.100:ignored:tncf_w_ctr
+AG:Beatrix Approach:120.900:ignored:tnca_app
+AG:Beatrix Tower:118.000:ignored:tnca_twr
+AG:Beatrix Ground:121.900:ignored:tnca_gnd
+AG:Flamingo Tower:118.700:ignored:tncb_twr
+AG:Hato Approach:119.600:ignored:tncc_app
+AG:Hato Tower:118.300:ignored:tncc_twr
+AG:Curacao Observer:199.998:ignored:tncf_xx_obs
+AG:Beatrix atis:132.100:ignored:tnca_atis
+AG:Hato Atis:132.600:ignored:tncc_atis
+END

@@ -1,0 +1,5 @@
+PLUGINS
+vSMR:cpdlc_logon:TNCF
+vSMR:cpdlc_password:p0J8G1C6cqP
+vSMR:cpdlc_sound:1
+END

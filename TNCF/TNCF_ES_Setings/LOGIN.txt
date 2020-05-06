@@ -1,0 +1,38 @@
+PROFILE
+PROFILE:TNCF_CTR:300:6
+ATIS2:Charts and info at 
+ATIS3:Callsign = Curacao Control
+ATIS4:Transition atlitude 04,000 ft FL040
+PROFILE:TNCF_W_CTR:300:6
+ATIS2:Charts and info at
+ATIS3:Callsign = Curacao Control
+ATIS4:
+PROFILE:TNCA_TWR:50:4
+ATIS2:Charts and info at 
+ATIS3:Callsign = Beatrix Tower
+ATIS4:
+PROFILE:TNCA_GND:20:3
+ATIS2:Charts and info at 
+ATIS3:Callsign = Beatrix Ground
+ATIS4:
+PROFILE:TNCA_APP:150:5
+ATIS2:Charts and info at
+ATIS3:Callsign = Hato Approach
+ATIS4:
+PROFILE:TNCC_APP:150:5
+ATIS2:Charts and info at
+ATIS3:Callsign = Hato Approach
+ATIS4:
+PROFILE:TNCC_TWR:50:4
+ATIS2:Charts and info at 
+ATIS3:Callsign = Hato Tower
+ATIS4:
+PROFILE:TNCB_TWR:50:4
+ATIS2:Charts and info at
+ATIS3:Callsign = Flamingo Tower
+ATIS4:
+PROFILE:TNCF_OBS:300:0
+ATIS2:Charts and info at
+ATIS3:
+ATIS4:
+END
